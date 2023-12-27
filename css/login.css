@@ -1,0 +1,62 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Quicksand', sans-serif;
+}
+
+body{
+	background-image: url(image/raju2.jpg);
+	width: 100%;
+	background-size: cover;
+}
+
+
+
+#bg{
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+
+.box{
+	width: 300px;
+	min-height: 200px;
+	background-color: white;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+.box h2{
+	text-align: center;
+	margin-bottom: 18px;
+	padding: 10px;
+	font-family: 'Ubuntu', sans-serif;
+}
+.box .tanya{
+	font-size: 10px;
+	color: #B3B6B7 ;
+	text-align: center;	
+	margin-bottom: 18px;
+	
+}
+.box .tanya a{
+	text-decoration: none;
+	color: #DC7633;
+	font-style: italic;
+}
+.input{
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+}
+
+.tombol{
+	padding: 8px 8.4em;
+	margin: 10px 0px;
+	background-color: #DC7633;
+	color: whitesmoke;
+	border: none;
+	cursor: pointer;
+}
